@@ -1,0 +1,78 @@
+.result-container-thank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  border-radius: 35px;
+  height: 450px;
+  margin: 50px auto 0 auto;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.result-container-thank p {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.result-container-thank h3 {
+  margin: 20px;
+  font-size: 30px;
+}
+.result-container-thank h1 {
+  margin: 0;
+  font-size: 60px;
+}
+.result-container-thank h2 {
+  margin: 30px 0 0 0;
+}
+.result-des {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 16px;
+  margin: 0px;
+}
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-top: -100px;
+}
+
+.circle:before {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: -25px;
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.btn-back {
+  all: unset;
+  background-color: #303c58;
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin: 0;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+}
+.btn-back:hover {
+  background-color: red !important ;
+}
+.result {
+  text-align: center;
+  color: green;
+}
+.emoji {
+  font-size: 100px;
+}
