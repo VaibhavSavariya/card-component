@@ -8,7 +8,6 @@ import { motion } from "framer-motion";
 const App = () => {
   const [step, setStep] = useState(1);
   const [scoreData, setScoreData] = useState([]);
-  const git = 100;
 
   const nextStep = () => {
     setStep(step + 1);
